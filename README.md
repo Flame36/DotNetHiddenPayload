@@ -19,3 +19,5 @@ The packet is then reversed and appended to the end of the file
   
 To then get the payload you read the file stream in reverse, check if the header matches, read the payload length, and finally read the payload
 
+## Uses
+I made this primarely for use in AV bypassing and social engineering (you could store a program to clone as payload and get executed with admin privilege)
